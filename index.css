@@ -1,0 +1,31 @@
+html {
+    box-sizing: border-box;
+    font-size: 1.5em;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    color: white;
+    background-color: hsl(0, 0%, 30%);
+}
+
+header {
+    text-align: center;
+    margin: 50px 0px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    width: 8rem;
+    padding: 0px;
+    margin: 0px auto;
+}
+
+nav ul li {
+    border: 1px solid white;
+}
