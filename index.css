@@ -1,6 +1,6 @@
 html {
     box-sizing: border-box;
-    font-size: 1.5em;
+    font-family: 'Open Sans', sans-serif;
 }
 
 *, *::before, *::after {
@@ -8,24 +8,30 @@ html {
 }
 
 body {
-    color: white;
-    background-color: hsl(0, 0%, 30%);
+    color: hsl(0, 0%, 90%);
+    background-color: hsl(0, 0%,10%);
 }
 
-header {
+header h1 {
+    font-size: 2.5rem;
     text-align: center;
-    margin: 50px 0px;
+    margin: 50px 0px 25px;
 }
 
 nav ul {
     list-style: none;
     display: flex;
     flex-direction: column;
-    width: 8rem;
+    width: 15rem;
     padding: 0px;
     margin: 0px auto;
 }
 
 nav ul li {
-    border: 1px solid white;
+    font-size: 1.5rem;
+    text-align: center;
+    border: 2px solid hsl(0, 0%, 90%);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0px;
 }
